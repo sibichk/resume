@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="application/javascript">
+var screenW = 640, screenH = 480;
+if (parseInt(navigator.appVersion)>3) {
+ screenW = screen.width;
+ screenH = screen.height;
+}
+else if (navigator.appName == "Netscape" 
+    && parseInt(navigator.appVersion)==3
+    && navigator.javaEnabled()
+   ) 
+{
+ var jToolkit = java.awt.Toolkit.getDefaultToolkit();
+ var jScreenSize = jToolkit.getScreenSize();
+ screenW = jScreenSize.width;
+ screenH = jScreenSize.height;
+}
+
+document.write(
+ "Screen width = "+screenW+"<br>"
++"Screen height = "+screenH
+)
+</script>
+</head>
+
+<body>
+</body>
+</html>

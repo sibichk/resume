@@ -1,0 +1,406 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin:0px;
+	background-image:url(../images/bb.jpg);
+	background-position: 50% 50%;
+	background-attachment:fixed;
+	padding:0;
+	color:#FFF;
+}
+
+#wrapper
+{
+	width:960px;
+}
+
+#moveit 
+{
+width: 70px;
+padding: 6px;
+margin: 0 auto;
+clear: both;
+position: absolute;
+cursor:pointer;
+display:inherit;
+text-shadow: 0px 1px 0px #ff000;
+}
+
+   #bounce 
+   {
+	   
+	   width:75px;
+   }
+   
+	#name 
+{   
+	position:absolute;
+	-webkit-transform:  rotate(270deg);
+	-moz-transform:  rotate(270deg);
+	-o-transform:  rotate(270deg);
+	-ms-transform: rotate(270deg);
+	writing-mode: lr-tb;
+	margin-top:206px;
+	margin-left:-190px;
+	position:fixed;
+}
+ 
+#content 
+{
+	margin-left:250px;
+	margin-top:35px;
+}
+
+#content1
+{
+	width:600px;
+	background:url(../images/box_bg.png);
+	padding:5px 10px; 
+	-moz-border-radius-topleft: 5px;  -moz-border-radius-topright:5px; -webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px; 							    border-radius: 5px;
+}
+
+#content2
+{
+	width:600px;
+	margin-top:15px;
+	background:url(../images/box_bg.png);
+	padding:5px 10px;
+	-moz-border-radius-topleft: 5px;  -moz-border-radius-topright:5px; -webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px; 							    border-radius: 5px;
+	
+}
+
+#content3
+{
+	width:600px;
+	margin-top:15px;
+	background:url(../images/box_bg.png);
+	padding:5px 10px;
+	-moz-border-radius-topleft: 5px;  -moz-border-radius-topright:5px; -webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px; 							    border-radius: 5px;
+}
+
+#headshot
+{
+	margin-top:-460px;
+	margin-left:650px;
+	position:absolute;
+	overflow:visible;
+}
+
+#image2
+{
+	margin-top:50px;
+	margin-left:650px;
+	position:absolute;
+	overflow:visible;
+}
+	
+@media screen and (max-width: 920px) {
+
+	#wrapper {
+		width: 94%;
+	}
+	
+	#name
+	{
+		margin-left:-225px;
+	}
+	
+	#name font
+	{
+		font-size:43px;
+	}
+			
+	#content
+	{
+		margin-left:100px;
+	}
+		
+	#content1
+	{
+		width: 65%;
+	}
+	
+	#content2
+	{
+		width: 65%;
+	}
+	
+	#content2 img
+	{
+		width:15%;
+		height:10%;
+	}
+	
+	#content3
+	{
+		width: 65%;
+	}
+	
+	#content3 img
+	{
+		margin-left:0px;
+		width:70px;
+		height:90px;
+	}
+	
+	#image2 img
+	{
+		margin-left:-140px;
+		width:150px;
+	}
+	
+	#linkedin img
+	{
+		height:25px;
+		width:80px;
+	}
+	
+	#content font
+	{
+		font-size:95%;
+	}
+	
+	#headshot img
+	{
+		width:322px;
+		height:330px;
+		margin-left:-90px;
+	}
+	
+	#headshot
+	{
+		margin-left:510px;
+		margin-top:-350px;
+	}
+	
+}
+	
+	
+
+@media screen and (max-width: 700px) {
+
+	
+	#name
+	{
+		margin-left:-200px;
+	}
+	
+	#name font
+	{
+		font-size:45px;
+	}
+			
+	#content
+	{
+		margin-left:140px;
+	}
+		
+	#content1 
+	{
+		width: 45%;
+	}
+	
+	#content2
+	{
+		width: 45%;
+	}
+	
+	#content3
+	{
+		width: 45%;
+	}
+	
+	#content3 img
+	{
+		margin-left:0px;
+		width:90px;
+		height:90px;
+	}
+	
+	#content font
+	{
+		font-size:65%;
+	}
+	
+	#headshot img
+	{
+		width: 290px;
+		height:290px;
+	}
+
+	#headshot
+	{
+		margin-left:310px;
+		margin-top:-350px;
+	}
+    
+	#content3 img
+	{
+		width:20%;
+		height:20%;
+	}
+	
+	#content2 img
+	{
+		width:20%;
+		height:20%;
+}
+	#image2 img
+	{
+		width:150px;
+		height:120px;
+		margin-left:-430px;
+	}
+
+}
+@media screen and (max-width: 420px) {
+
+	
+	#name
+	{
+		margin-left:-170px;
+	}
+	
+	#name font
+	{
+		font-size:40px;
+	}
+			
+	#content
+	{
+		margin-left:140px;
+	}
+		
+	#content1 
+	{
+		width: 50%;
+	}
+	
+	#content2
+	{
+		width: 50%;
+	}
+	
+	#content3
+	{
+		width: 50%;
+	}
+	
+	#content font
+	{
+		font-size:58%;
+	}
+	
+	#headshot img
+	{
+		width: 150px;
+		height:150px;
+		
+	}
+
+	#headshot
+	{
+		margin-left:215px;
+		margin-top:-350px;
+	}
+	
+	#linkedin img
+	{	
+		width:50%;
+		height:50%;
+		
+	}
+	#image2 img
+	{
+		margin-left:-550px;
+		width:90px;
+		height:70px;
+	}
+	
+}
+
+	 
+	 @media screen and (min-width: 1400px) {
+		 
+	#wrapper 
+	{
+		width: 154%;
+	}
+	
+	#name
+	{
+		margin-left:-225px;
+	}
+	
+	#name font
+	{
+		font-size:70px;
+	}
+			
+	#content
+	{
+		margin-left:320px;
+	}
+		
+	#content1
+	{
+		width: 70%;
+	}
+	
+	#content2
+	{
+		width: 70%;
+	}
+	
+	#content2 img
+	{
+		width:15%;
+		height:10%;
+	}
+	
+	#content3
+	{
+		width: 70%;
+	}
+	
+	#content3 img
+	{
+		margin-left:5px;
+		width:140px;
+		height:180px;
+	}
+	
+	#image2 img
+	{
+		margin-left:650px;
+		width:400px;
+		height:350px;
+	}
+	
+	#linkedin img
+	{
+		height:55px;
+		width:170px;
+	}
+	
+	#content font
+	{
+		font-size:150%;
+	}
+	
+	#headshot img
+	{
+		width:622px;
+		height:630px;
+		margin-left:900px;
+	}
+	
+	#headshot
+	{
+		margin-left:510px;
+		margin-top:-350px;
+	}
+	
+}
+		 
